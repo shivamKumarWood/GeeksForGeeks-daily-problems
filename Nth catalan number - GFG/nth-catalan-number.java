@@ -37,7 +37,7 @@ class Solution {
         catalanNumbers[1] = 1;
         
         for (int i = 2; i <= n; i++) {
-            catalanNumbers[i] = 0;
+           // catalanNumbers[i] = 0;
             for (int j = 0; j < i; j++) {
                 catalanNumbers[i] =(int)(catalanNumbers[i]%mod+ (long)catalanNumbers[j]%mod * catalanNumbers[i - j - 1]%mod)%mod;
             }
