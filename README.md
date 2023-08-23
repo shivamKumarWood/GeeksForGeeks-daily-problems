@@ -1,2 +1,2 @@
-# leetcode-daily-problems
-Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub](https://github.com/QasimWani/LeetHub)
+# GeeksForGeeks-daily-problems
+This repository contains geeks for geeks daily practice problem.
