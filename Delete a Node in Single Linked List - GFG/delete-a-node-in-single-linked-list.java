@@ -95,6 +95,7 @@ class GfG
 	    while(temp!=null){
 	        if(x==2){
 	            temp.next=temp.next.next;
+	            break;
 	        }
 	        temp=temp.next;
 	        x--;
